@@ -11,6 +11,7 @@ def configuration(parent_package='', top_path=None):
     config.add_subpackage('data')
     config.add_subpackage('draw')
     config.add_subpackage('feature')
+    config.add_subpackage('deconvolution')
     config.add_subpackage('filter')
     config.add_subpackage('graph')
     config.add_subpackage('io')
